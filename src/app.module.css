@@ -1,7 +1,11 @@
 .app {
-    width: 100%;
+    width:100%;
     height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
 }
+
 .header {
     height: 50vh;
     background-color: red;
@@ -11,13 +15,13 @@
     width: 100%;
 }
 
-.summary, .edu, .docu, .contact {
+.summary, .contact {
     width: 100%;
     height: 50vh;
     background-color: #212d41;
 }
 
-.project, .stack {
+.project, .stack, .edu, .docu {
     height: 100vh;
     background-color: #212d41;
 

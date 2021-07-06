@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    
+}
+
+
+.main { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #31415e;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.p {
+    font-family: 'IBMPlexSansKR-Medium';
+    color: #969696;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.box {
+    width: 35%;
+    height: 50%;
+    margin: 0 auto;
+    border: 0 solid;
+    background: #1e283a;
+    border-radius: 20px;
+}
+
+.name {
+    padding-top: 1rem;
+    font-family: 'IBMPlexSansKR-Bold';
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right:2rem;
+}
+
+.ul > li {
+    font-family: 'IBMPlexSansKR-Light';
+    color: #dddddd;
+    margin-top: 0.5rem;
+    list-style: none;
+}
+
+.span {
+    font-family: 'IBMPlexSansKR-Light';
+    color: #acacac;
+    margin-right: 0.5rem;
+}

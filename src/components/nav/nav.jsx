@@ -6,7 +6,7 @@ const Nav = () => {
         <nav className={styles.nav}>
             <div className={styles.bar}>
             <div className={styles.logo}>Lee Insu</div>
-            <ul>
+            <ul className={styles.ul}>
                 <li>SUMMARY</li>
                 <li>PROJECT</li>
                 <li>STACK</li>

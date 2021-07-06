@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    top:20%;
+}
+
+
+.main { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.p {
+    font-family: 'IBMPlexSansKR-Medium';
+    color: #969696;
+    font-size: 1rem;
+    font-size: 0.9rem;
+}
+
+.table {
+    width: 60%;
+    border: 0px solid;
+    background: #182231;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    text-align: center;
+    margin: 3em auto;
+    padding: 1rem;
+}
+
+thead > tr > th {
+    font-family: 'IBMPlexSansKR-Medium';
+    color: #fff;
+}
+
+.trHead {
+    line-height: 1.5em;
+}
+
+
+tbody > tr > th {
+    font-family: 'IBMPlexSansKR-Medium';
+    color: #fff;
+}
+
+.tr {
+    border-top: 1px solid rgb(66, 66, 66);
+  
+}
+.tr:hover {
+    background: #223044;
+}
+
+
+
+
+.service {
+    font-family: 'IBMPlexSansKR-Bold';
+    color: rgb(173, 173, 173);
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.keywords {
+    font-family: 'IBMPlexSansKR-Regular';
+    color:rgb(87, 87, 87);
+    font-size: 0.85rem;
+    text-align: left;
+}
+.tech {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    background: #979797;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+  
+}
+.techList {
+    text-align: left;
+}
+.react {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #0d55db;
+}
+.js {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #f38e0b;
+}
+
+.during {
+    font-family: 'IBMPlexSansKR-Bold';
+    color: rgb(184, 184, 184);
+    font-size: 0.8rem;
+    margin-bottom: 0.5em;
+}
+.state{
+    font-family: 'IBMPlexSansKR-Bold';
+    color:#fff;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    font-size: 0.8rem;
+    border: 0px solid;
+    background:linear-gradient(75deg,#2172eb,#3067bb) ;
+    border-radius: 0.8em;
+    margin-bottom: 0.5em;
+}
+.unstate{
+    font-family: 'IBMPlexSansKR-Bold';
+    color:#fff;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    font-size: 0.8rem;
+    border: 0px solid;
+    background:linear-gradient(75deg,#19c919,#27a523) ;
+    border-radius: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.position {
+    font-family: 'IBMPlexSansKR-Bold';
+    color:rgb(219, 219, 219);
+    font-size: 0.6rem;
+}
+.link {
+    text-decoration: none;
+    color: #979797;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.link:hover {
+    color: #bbbbbb;
+}

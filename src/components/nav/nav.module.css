@@ -39,12 +39,12 @@
     color: rgb(104, 104, 104);
 }
 
-ul {
+.ul {
     display: flex;
     align-items: center;
     margin: 0;
 }
-ul > li {
+.ul > li {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     list-style: none;
@@ -55,7 +55,7 @@ ul > li {
     transition-timing-function: ease;
 }
 
-ul > li:hover {
+.ul > li:hover {
     color: #020203;
 }
 
@@ -63,6 +63,7 @@ ul > li:hover {
     position: relative;
     font-family: 'IBMPlexSansKR-Regular';
     color: #fff;
+    font-size: 0.8rem;
     border: 0px solid;
     padding: 0.3rem 0.9rem 0.3rem 0.9rem;
     border-radius: 0.5rem;
