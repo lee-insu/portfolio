@@ -7,18 +7,23 @@ import Edu from './components/pf_contents/edu/edu';
 import Project from './components/pf_contents/projec/project';
 import Stack from './components/pf_contents/stac/stack';
 import Summary from './components/pf_contents/summary/summary';
+import Sticky from 'react-sticky-el';
+
 
 function App() {
   return (
     <div className={styles.app}>
-      <div className={styles.header} ><Header /> </div>
+      <div id="home" className={styles.header} ><Header /> </div>
+      <Sticky stickyStyle={{zIndex:1}}>
       <div className={styles.nav}><Nav /></div>
-      <div className={styles.summary}><Summary /></div>
-      <div className={styles.project}><Project /></div>
-      <div className={styles.stack}><Stack /></div>
-      <div className={styles.edu}><Edu /></div>
-      <div className={styles.docu}><Docu /></div>
-      <div className={styles.contact}><Contact /></div> 
+      </Sticky>
+      <div id="summary" className={styles.summary}><Summary /></div>
+      <div id="project" className={styles.project}><Project /></div>
+      <div id="stack" className={styles.stack}><Stack /></div>
+      <div id="edu" className={styles.edu}><Edu /></div>
+      <div id="docu" className={styles.docu}><Docu /></div>
+      <div id="contact" className={styles.contact}><Contact /></div> 
+
     </div>
     
   );

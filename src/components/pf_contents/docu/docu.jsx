@@ -14,7 +14,7 @@ const Docu = () => {
                 <div className={styles.box}>
                     <div className={styles.imgBox}>
                          <div className={styles.head}>개발 분야</div>
-                        <img src="/static/img/활동.jpg" alt=""/>
+                        <img src="/static/img/coding.jpg" alt=""/>
                     </div>
                     <div className={styles.content}>
                         <table className={styles.table}>
@@ -35,7 +35,7 @@ const Docu = () => {
                 <div className={styles.box}>
                     <div className={styles.imgBox}>
                          <div className={styles.head}>비개발 분야</div>
-                        <img src="/static/img/활동.jpg" alt=""/>
+                        <img src="/static/img/marketing.jpg" alt=""/>
                     </div>
                     <div className={styles.content}>
                         <table className={styles.table}>

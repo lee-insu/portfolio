@@ -30,7 +30,7 @@ const Project = () => {
                             <span className={styles.tech}>JAVASCRIPT ES6</span>
                             <span className={styles.tech}>FIREBASE</span>
                             <span className={styles.tech}>MONGODB</span>
-                            <span className={styles.tech}>CSS</span>
+                            <span className={styles.tech}>POSTCSS</span>
                             <span className={styles.tech}>HTML</span>
                         
                         </div>

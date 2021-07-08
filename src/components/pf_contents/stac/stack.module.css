@@ -59,9 +59,11 @@
 
 .explain {
     text-align: left;
+    padding-left: 3rem;
 }
 .logo {
     text-align: left;
+    padding-left: 3rem;
     
 }
 .logo > img {
