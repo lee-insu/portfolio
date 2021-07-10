@@ -18,7 +18,7 @@ const Nav = () => {
                 <li><Link  to="contact" spy={true} smooth={true}>CONTACT</Link></li>
             </ul>
             </div>
-            <div className={styles.download}>이력서</div>
+            <div className={styles.download}><a href="https://drive.google.com/file/d/1LiUElwDQTQdp7gUlOuHySARD-uxORXhm/view?usp=sharing">이력서</a></div>
         </nav>
         
     

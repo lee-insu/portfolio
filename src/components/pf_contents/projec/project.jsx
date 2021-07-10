@@ -78,6 +78,7 @@ const Project = () => {
                             <span className={styles.js}>JAVASCRIPT ES6</span>
                             <span className={styles.tech}>FLASK</span>
                             <span className={styles.tech}>MYSQL</span>
+                            <span className={styles.tech}>AWS EC2</span>
                             <span className={styles.tech}>CSS</span>
                             <span className={styles.tech}>HTML</span>
                         
@@ -90,6 +91,7 @@ const Project = () => {
                     </td>
                     <th>
                         <a className={styles.link} href="https://github.com/lee-insu/today-feeling">GITHUB</a><br/>
+                        <a className={styles.link} href="http://3.36.85.153:5000/">SITE</a>
                     </th>
                 </tr>
             </tbody>

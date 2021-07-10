@@ -61,13 +61,21 @@
 
 .download {
     position: relative;
-    font-family: 'IBMPlexSansKR-Regular';
-    color: #fff;
-    font-size: 0.8rem;
     border: 0px solid;
     padding: 0.3rem 0.9rem 0.3rem 0.9rem;
     border-radius: 0.5rem;
-    background: linear-gradient( to right, #AD3680, #6258AD);
+    background: linear-gradient( to right, #005C97,#363795);
     cursor: pointer;
+}
+
+.download > a {
+    text-decoration: none;
+    font-family: 'IBMPlexSansKR-Regular';
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.download:hover {
+    background: linear-gradient( to right, #0267a7,#3e40aa);
 }
 
