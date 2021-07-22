@@ -55,8 +55,6 @@ const Project = () => {
                             <span className={styles.tech}>FIREBASE</span>
                             <span className={styles.tech}>POSTCSS</span>
                             <span className={styles.tech}>HTML</span>
-                            
-                        
                         </div>
                     </td>
                     <td>

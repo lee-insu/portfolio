@@ -9,7 +9,7 @@
 .header {
     height: 50vh;
     /* background: #fff; */
-    background: linear-gradient(150deg, #00c3ff,#ffff1c);
+    background: linear-gradient(150deg,  #2ca1eb,#4c4ecf);
     display: flex;
     text-align: center;
 }
