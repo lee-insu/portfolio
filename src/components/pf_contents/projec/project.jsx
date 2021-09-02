@@ -29,19 +29,18 @@ const Project = () => {
                             <span className={styles.react}>REACT</span>
                             <span className={styles.tech}>JAVASCRIPT ES6</span>
                             <span className={styles.tech}>FIREBASE</span>
-                            <span className={styles.tech}>MONGODB</span>
                             <span className={styles.tech}>POSTCSS</span>
                             <span className={styles.tech}>HTML</span>
                         
                         </div>
                     </td>
                     <td>
-                        <div className={styles.during}>07.01~</div>
-                        <div className={styles.unstate}>개발진행중</div>
+                        <div className={styles.during}>07.20~09.01</div>
+                        <div className={styles.state}>개발완료</div>
                         <div className={styles.position}>프론트엔드, 백엔드, 데이터베이스 (1인)</div>
                     </td>
                     <th>
-                        <a className={styles.link} href="https://github.com/lee-insu/coin-renew">GITHUB</a><br/>
+                        <a className={styles.link} href="https://github.com/lee-insu/coin_parrot">GITHUB</a><br/>
                     </th>
                 </tr>
                 <tr className={styles.tr}>
@@ -60,7 +59,7 @@ const Project = () => {
                     <td>
                         <div className={styles.during}>05.18 ~ 06.22</div>
                         <div className={styles.state}>개발완료</div>
-                        <div className={styles.position}>프론트엔드 (1인)</div>
+                        <div className={styles.position}>프론트엔드, 백엔드, 데이터베이스 (1인)</div>
                     </td>
                     <th>
                         <a className={styles.link} href="https://github.com/lee-insu/clothes-list-react">GITHUB</a><br/>
