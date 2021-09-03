@@ -23,7 +23,7 @@ const Project = () => {
             <tr className={styles.tr}>
                     <th>코인 앵무새</th>
                     <td>
-                        <div className={styles.service}>코인을 무작위로 뽑아주는 앵무새와 정보를 알려주는 커뮤니티 사이트</div>
+                        <div className={styles.service}>코인을 무작위로 뽑아주는 앵무새와 정보를 알려주는 crud를 구현한 커뮤니티 사이트</div>
                         <div className={styles.keywords}>#자유게시판 &nbsp; #CRUD &nbsp;#랜덤코인뽑기 </div>
                         <div className={styles.techList}>
                             <span className={styles.react}>REACT</span>
