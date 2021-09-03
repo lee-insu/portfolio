@@ -41,6 +41,7 @@ const Project = () => {
                     </td>
                     <th>
                         <a className={styles.link} href="https://github.com/lee-insu/coin_parrot">GITHUB</a><br/>
+                        <a className={styles.link} href="https://goofy-jepsen-710f83.netlify.app">SITE</a>
                     </th>
                 </tr>
                 <tr className={styles.tr}>
