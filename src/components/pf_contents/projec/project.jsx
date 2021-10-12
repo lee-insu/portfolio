@@ -21,12 +21,37 @@ const Project = () => {
             </thead>
             <tbody>
             <tr className={styles.tr}>
+                    <th>헤이앱</th>
+                    <td>
+                        <div className={styles.service}>디자인 UIUX를 분석하는 커뮤니티 사이트,어드민 페이지 제작</div>
+                        <div className={styles.keywords}>#게시판 &nbsp; #CRUD &nbsp;#상태관리 </div>
+                        <div className={styles.techList}>
+                            <span className={styles.react}>REACT</span>
+                            <span className={styles.tech}>REDUX</span>
+                            <span className={styles.tech}>JAVASCRIPT ES6</span>
+                            <span className={styles.tech}>FIREBASE</span>
+                            <span className={styles.tech}>POSTCSS</span>
+                            <span className={styles.tech}>HTML</span>
+                        
+                        </div>
+                    </td>
+                    <td>
+                        <div className={styles.during}>09.03 ~</div>
+                        <div className={styles.unstate}>개발진행중</div>
+                        <div className={styles.position}>프론트엔드, 백엔드, 데이터베이스 (1인)</div>
+                    </td>
+                    <th>
+                        <a className={styles.link} href="https://github.com/lee-insu/salary">GITHUB</a><br/>
+                    </th>
+                </tr>
+            <tr className={styles.tr}>
                     <th>코인 앵무새</th>
                     <td>
                         <div className={styles.service}>코인을 무작위로 뽑아주는 앵무새와 정보를 알려주는 crud를 구현한 커뮤니티 사이트</div>
                         <div className={styles.keywords}>#자유게시판 &nbsp; #CRUD &nbsp;#랜덤코인뽑기 </div>
                         <div className={styles.techList}>
                             <span className={styles.react}>REACT</span>
+                            <span className={styles.tech}>REDUX</span>
                             <span className={styles.tech}>JAVASCRIPT ES6</span>
                             <span className={styles.tech}>FIREBASE</span>
                             <span className={styles.tech}>POSTCSS</span>

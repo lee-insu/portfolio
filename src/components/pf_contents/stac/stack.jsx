@@ -33,6 +33,13 @@ const Stack = () => {
                     </td>
                 </tr>
                 <tr className={styles.tr}>
+                    <td className={styles.stack}>Redux</td>
+                    <td className={styles.logo}><img src="/static/img/redux.png" alt=""/></td>
+                    <td className={styles.explain}>
+                        <p>Redux를 활용해 state에서 props로 정보 전달의 복잡함을 해결하고 있습니다.<br/> 상태관리를 통해 코드에 더 효율을 더하고 있습니다.</p>
+                    </td>
+                </tr>
+                <tr className={styles.tr}>
                     <td className={styles.stack}>Python</td>
                     <td className={styles.logo}><img src="/static/img/python.png" alt=""/></td>
                     <td className={styles.explain}>
