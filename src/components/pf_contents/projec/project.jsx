@@ -23,7 +23,7 @@ const Project = () => {
             <tr className={styles.tr}>
                     <th>헤이앱</th>
                     <td>
-                        <div className={styles.service}>디자인 UIUX를 분석하는 커뮤니티 사이트,어드민 페이지 제작</div>
+                        <div className={styles.service}>디자인 UIUX를 분석하는 블로그형 커뮤니티 사이트,게시물 관리하는 어드민 페이지 제작</div>
                         <div className={styles.keywords}>#게시판 &nbsp; #CRUD &nbsp;#상태관리 </div>
                         <div className={styles.techList}>
                             <span className={styles.react}>REACT</span>
@@ -36,12 +36,14 @@ const Project = () => {
                         </div>
                     </td>
                     <td>
-                        <div className={styles.during}>09.03 ~</div>
-                        <div className={styles.unstate}>개발진행중</div>
+                        <div className={styles.during}>09.03~11.02</div>
+                        <div className={styles.state}>개발완료</div>
                         <div className={styles.position}>프론트엔드, 백엔드, 데이터베이스 (1인)</div>
                     </td>
                     <th>
                         <a className={styles.link} href="https://github.com/lee-insu/salary">GITHUB</a><br/>
+                        <a className={styles.link} href="https://nostalgic-bose-5d7e0a.netlify.app">SITE</a>
+                        <a className={styles.link} href="https://github.com/lee-insu/salary-admin">GITHUB</a><br/>
                         <a className={styles.link} href="https://nostalgic-bose-5d7e0a.netlify.app">SITE</a>
                     </th>
                 </tr>
