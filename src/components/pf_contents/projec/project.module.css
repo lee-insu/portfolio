@@ -104,9 +104,79 @@ tbody > tr > th {
     border-radius: 0.2rem;
   
 }
+
+
 .techList {
     text-align: left;
 }
+
+
+.redux {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #4b0ddb;
+}
+
+.flask {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #4b4b64;
+}
+
+.aws {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #5b9397;
+}
+
+.mysql {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #757ce0;
+}
+
+.postcss {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #af6659;
+}
+
+.firebase {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 0.5rem;
+    border: 0px solid ;
+    padding: 0.2em 0.4rem;
+    margin-right: 0.2rem;
+    border-radius: 0.2rem;
+    background: #b38b0b;
+}
+
 .react {
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -125,7 +195,7 @@ tbody > tr > th {
     padding: 0.2em 0.4rem;
     margin-right: 0.2rem;
     border-radius: 0.2rem;
-    background: #f38e0b;
+    background: #b36704;
 }
 
 .during {

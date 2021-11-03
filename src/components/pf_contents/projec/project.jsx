@@ -23,14 +23,14 @@ const Project = () => {
             <tr className={styles.tr}>
                     <th>헤이앱</th>
                     <td>
-                        <div className={styles.service}>디자인 UIUX를 분석하는 블로그형 커뮤니티 사이트,게시물 관리하는 어드민 페이지 제작</div>
+                        <div className={styles.service}>디자인 UIUX를 분석하는 블로그형 커뮤니티 사이트, 게시물 관리하는 어드민 페이지 제작</div>
                         <div className={styles.keywords}>#게시판 &nbsp; #CRUD &nbsp;#상태관리 </div>
                         <div className={styles.techList}>
                             <span className={styles.react}>REACT</span>
-                            <span className={styles.tech}>REDUX</span>
-                            <span className={styles.tech}>JAVASCRIPT ES6</span>
-                            <span className={styles.tech}>FIREBASE</span>
-                            <span className={styles.tech}>POSTCSS</span>
+                            <span className={styles.redux}>REDUX</span>
+                            <span className={styles.js}>JAVASCRIPT ES6</span>
+                            <span className={styles.firebase}>FIREBASE</span>
+                            <span className={styles.postcss}>POSTCSS</span>
                             <span className={styles.tech}>HTML</span>
                         
                         </div>
@@ -54,10 +54,10 @@ const Project = () => {
                         <div className={styles.keywords}>#자유게시판 &nbsp; #CRUD &nbsp;#랜덤코인뽑기 </div>
                         <div className={styles.techList}>
                             <span className={styles.react}>REACT</span>
-                            <span className={styles.tech}>REDUX</span>
-                            <span className={styles.tech}>JAVASCRIPT ES6</span>
-                            <span className={styles.tech}>FIREBASE</span>
-                            <span className={styles.tech}>POSTCSS</span>
+                            <span className={styles.redux}>REDUX</span>
+                            <span className={styles.js}>JAVASCRIPT ES6</span>
+                            <span className={styles.firebase}>FIREBASE</span>
+                            <span className={styles.postcss}>POSTCSS</span>
                             <span className={styles.tech}>HTML</span>
                         
                         </div>
@@ -79,9 +79,9 @@ const Project = () => {
                         <div className={styles.keywords}>#OpenWeather API &nbsp; #Geolocation API &nbsp;#오늘의 날씨 </div>
                         <div className={styles.techList}>
                             <span className={styles.react}>REACT</span>
-                            <span className={styles.tech}>JAVASCRIPT ES6</span>
-                            <span className={styles.tech}>FIREBASE</span>
-                            <span className={styles.tech}>POSTCSS</span>
+                            <span className={styles.js}>JAVASCRIPT ES6</span>
+                            <span className={styles.firebase}>FIREBASE</span>
+                            <span className={styles.postcss}>POSTCSS</span>
                             <span className={styles.tech}>HTML</span>
                         </div>
                     </td>
@@ -102,9 +102,9 @@ const Project = () => {
                         <div className={styles.keywords}>#Teachable Machine API &nbsp; #CRUD &nbsp;#Python &nbsp;#달력 &nbsp;#기분 테스트</div>
                         <div className={styles.techList}>
                             <span className={styles.js}>JAVASCRIPT ES6</span>
-                            <span className={styles.tech}>FLASK</span>
-                            <span className={styles.tech}>MYSQL</span>
-                            <span className={styles.tech}>AWS EC2</span>
+                            <span className={styles.flask}>FLASK</span>
+                            <span className={styles.mysql}>MYSQL</span>
+                            <span className={styles.aws}>AWS EC2</span>
                             <span className={styles.tech}>CSS</span>
                             <span className={styles.tech}>HTML</span>
                         
