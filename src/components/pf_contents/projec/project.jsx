@@ -44,7 +44,7 @@ const Project = () => {
                         <a className={styles.link} href="https://github.com/lee-insu/salary">GITHUB</a><br/>
                         <a className={styles.link} href="https://nostalgic-bose-5d7e0a.netlify.app">SITE</a><br/>
                         <a className={styles.link} href="https://github.com/lee-insu/salary-admin">GITHUB</a><br/>
-                        <a className={styles.link} href="https://nostalgic-bose-5d7e0a.netlify.app">SITE</a>
+                        <a className={styles.link} href="https://hopeful-kare-cc0c2c.netlify.app/">SITE</a>
                     </th>
                 </tr>
             <tr className={styles.tr}>
